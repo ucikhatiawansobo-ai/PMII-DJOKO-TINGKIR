@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- ==========================================
+       METADATA WEBSITE
+       Ganti deskripsi setelah profil resmi tersedia.
+       ========================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PMII Komisariat Djoko Tingkir</title>
+
+  <meta
+    name="description"
+    content="Website profil dan informasi PMII Komisariat Djoko Tingkir. Kenali struktur kepengurusan, berita kegiatan, dan pengumuman organisasi."
+  >
+
+  <meta name="theme-color" content="#0A192F">
+
+  <!-- Font Google Fonts. Tersedia font cadangan jika offline. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Menghubungkan file CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Tautan aksesibilitas untuk pengguna keyboard -->
+  <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+  <!-- ==========================================
+       NAVBAR
+       Ganti simbol DT dengan logo resmi jika tersedia.
+       ========================================== -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="#beranda" aria-label="PMII Djoko Tingkir, beranda">
+        <span class="brand-logo" aria-hidden="true">DT</span>
+
+        <span class="brand-text">
+          <strong>PMII</strong>
+          <span>Komisariat Djoko Tingkir</span>
+        </span>
+      </a>
+
+      <!-- Tombol hanya ditampilkan di layar kecil -->
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-controls="menu-utama"
+        aria-expanded="false"
+        aria-label="Buka menu navigasi"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="menu-utama" aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a>
+        <a href="#struktur">Struktur Pengurus</a>
+        <a href="#berita">Berita</a>
+        <a class="nav-highlight" href="#pengumuman">Pengumuman</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten-utama">
+    <!-- ==========================================
+         HERO / BERANDA
+         Ganti kalimat pengantar sesuai profil organisasi.
+         ========================================== -->
+    <section class="hero" id="beranda" aria-labelledby="hero-title">
+      <div class="hero-decoration" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <span class="eyebrow eyebrow-light">
+            RUANG INFORMASI DAN GERAK BERSAMA
+          </span>
+
+          <h1 id="hero-title">
+            Selamat Datang di
+            <span>PMII Komisariat Djoko Tingkir.</span>
+          </h1>
+
+          <p class="hero-description">
+            Mengenal lebih dekat organisasi, merawat kebersamaan,
+            dan mengikuti langkah pengabdian melalui informasi
+            kepengurusan, kegiatan, serta pengumuman terbaru.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pengumuman">
+              Pengumuman Terbaru
+              <span aria-hidden="true">↗</span>
+            </a>
+
+            <a class="button button-outline" href="#struktur">
+              Kenali Pengurus
+            </a>
+          </div>
+
+          <div class="hero-note">
+            <span class="status-dot" aria-hidden="true"></span>
+            Terhubung dalam gagasan, bertumbuh dalam kebersamaan.
+          </div>
+        </div>
+
+        <!-- Ringkasan ini membantu pengunjung menemukan info penting -->
+        <aside class="hero-panel" aria-labelledby="hero-panel-title">
+          <div class="panel-top">
+            <span class="panel-icon" aria-hidden="true">DT</span>
+            <span class="small-badge">PUSAT INFORMASI</span>
+          </div>
+
+          <h2 id="hero-panel-title">Satu ruang untuk kabar organisasi.</h2>
+
+          <p>
+            Temukan informasi kepengurusan dan agenda terbaru
+            melalui kanal informasi komisariat.
+          </p>
+
+          <!-- GANTI INFORMASI SOROTAN DI SINI -->
+          <a class="spotlight-link" href="#pengumuman">
+            <span class="spotlight-label">SOROTAN INFORMASI</span>
+            <strong>Informasi kader dan agenda organisasi</strong>
+            <span class="spotlight-bottom">
+              Lihat papan pengumuman
+              <span aria-hidden="true">→</span>
+            </span>
+          </a>
+
+          <div class="panel-bottom">
+            <span>Komisariat Djoko Tingkir</span>
+            <span class="panel-line" aria-hidden="true"></span>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container">
+        <div class="hero-bottom">
+          <span>PROFIL ORGANISASI</span>
+          <span>KEPENGURUSAN</span>
+          <span>BERITA KEGIATAN</span>
+          <span>INFORMASI KADER</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         STRUKTUR KEPENGURUSAN
+         Urutan kartu mengikuti daftar yang diminta.
+         Foto menggunakan rasio 4:5.
+         Ganti nama dan file foto pada setiap kartu.
+         ========================================== -->
+    <section class="section section-light" id="struktur" aria-labelledby="struktur-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">MENGENAL LEBIH DEKAT</span>
+            <h2 id="struktur-title">Struktur Kepengurusan</h2>
+          </div>
+
+          <p>
+            Orang-orang yang membersamai langkah organisasi
+            dalam menjalankan amanah dan merawat kolaborasi.
+          </p>
+        </div>
+
+        <!-- GANTI PERIODE JIKA SUDAH DITETAPKAN -->
+        <div class="section-caption">
+          <span class="accent-line" aria-hidden="true"></span>
+          Kepengurusan PMII Komisariat Djoko Tingkir
+        </div>
+
+        <div class="management-grid">
+          <!-- 01. KETUA -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">K</span>
+              <!-- GANTI FOTO KETUA DI SINI -->
+              <img src="images/ketua.jpg" alt="Foto Ketua" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">01</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Ketua</p>
+              <!-- GANTI NAMA KETUA DI SINI -->
+              <h3>Nama Lengkap Ketua</h3>
+            </div>
+          </article>
+
+          <!-- 02. SEKRETARIS -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">S</span>
+              <img src="images/sekretaris.jpg" alt="Foto Sekretaris" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">02</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Sekretaris</p>
+              <h3>Nama Lengkap Sekretaris</h3>
+            </div>
+          </article>
+
+          <!-- 03. BENDAHARA -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">B</span>
+              <img src="images/bendahara.jpg" alt="Foto Bendahara" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">03</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Bendahara</p>
+              <h3>Nama Lengkap Bendahara</h3>
+            </div>
+          </article>
+
+          <!-- 04. WAKIL KETUA 1 -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">W1</span>
+              <img src="images/wakil-ketua-1.jpg" alt="Foto Wakil Ketua 1" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">04</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Wakil Ketua 1</p>
+              <h3>Nama Lengkap Wakil Ketua 1</h3>
+            </div>
+          </article>
+
+          <!-- 05. WAKIL KETUA 2 -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">W2</span>
+              <img src="images/wakil-ketua-2.jpg" alt="Foto Wakil Ketua 2" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">05</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Wakil Ketua 2</p>
+              <h3>Nama Lengkap Wakil Ketua 2</h3>
+            </div>
+          </article>
+
+          <!-- 06. WAKIL KETUA 3 -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">W3</span>
+              <img src="images/wakil-ketua-3.jpg" alt="Foto Wakil Ketua 3" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">06</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Wakil Ketua 3</p>
+              <h3>Nama Lengkap Wakil Ketua 3</h3>
+            </div>
+          </article>
+
+          <!-- 07. BIRO KADERISASI -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">BK</span>
+              <img src="images/biro-kaderisasi.jpg" alt="Foto pengurus Biro Kaderisasi" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">07</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Biro Kaderisasi</p>
+              <h3>Nama Lengkap Pengurus</h3>
+            </div>
+          </article>
+
+          <!-- 08. BIRO PAPO -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">BP</span>
+              <img src="images/biro-papo.jpg" alt="Foto pengurus Biro PAPO" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">08</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Biro PAPO</p>
+              <h3>Nama Lengkap Pengurus</h3>
+            </div>
+          </article>
+
+          <!-- 09. BIRO HKOG -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">BH</span>
+              <img src="images/biro-hkog.jpg" alt="Foto pengurus Biro HKOG" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">09</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Biro HKOG</p>
+              <h3>Nama Lengkap Pengurus</h3>
+            </div>
+          </article>
+
+          <!-- 10. BIRO MEDIA DAN PERS -->
+          <article class="person-card">
+            <div class="person-photo">
+              <span class="photo-fallback" aria-hidden="true">MP</span>
+              <img src="images/biro-media-pers.jpg" alt="Foto pengurus Biro Media dan Pers" loading="lazy" width="400" height="500">
+              <span class="person-number" aria-hidden="true">10</span>
+            </div>
+            <div class="person-info">
+              <p class="person-role">Biro Media dan Pers</p>
+              <h3>Nama Lengkap Pengurus</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         BERITA
+         Seluruh artikel berikut adalah contoh.
+         Ganti tanggal, judul, ringkasan, isi, dan foto.
+         Tombol baca menggunakan details/summary.
+         ========================================== -->
+    <section class="section" id="berita" aria-labelledby="berita-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">KABAR KOMISARIAT</span>
+            <h2 id="berita-title">Berita & Kegiatan</h2>
+          </div>
+
+          <p>
+            Catatan kegiatan, ruang diskusi, dan langkah bersama
+            yang menjadi bagian dari perjalanan komisariat.
+          </p>
+        </div>
+
+        <p class="editor-note">
+          Konten contoh — ganti dengan berita dan tanggal kegiatan sebenarnya.
+        </p>
+
+        <div class="news-grid">
+          <!-- BERITA 1 -->
+          <article class="news-card">
+            <div class="news-image">
+              <span class="news-image-fallback" aria-hidden="true">
+                RUANG DISKUSI
+              </span>
+              <!-- GANTI FOTO BERITA 1 DI SINI -->
+              <img
+                src="images/berita-1.jpg"
+                alt="Dokumentasi diskusi kader"
+                loading="lazy"
+                width="800"
+                height="500"
+              >
+              <span class="image-category">Diskusi</span>
+            </div>
+
+            <div class="news-body">
+              <!-- GANTI TANGGAL TAMPIL DAN datetime BERSAMAAN -->
+              <time datetime="2026-11-20">20 November 2026 · Contoh</time>
+
+              <h3>Merawat Tradisi Diskusi dan Menguatkan Nalar Kritis</h3>
+
+              <p class="news-excerpt">
+                Ruang pertemuan kader untuk bertukar gagasan,
+                membaca persoalan, dan membangun kebiasaan berdialog.
+              </p>
+
+              <details class="article-details">
+                <summary>
+                  Baca Selengkapnya
+                  <span aria-hidden="true">+</span>
+                </summary>
+
+                <!-- GANTI ISI LENGKAP BERITA 1 DI SINI -->
+                <div class="article-content">
+                  <p>
+                    Ini adalah contoh isi berita. Tuliskan waktu,
+                    tempat, peserta, dan pokok pembahasan kegiatan
+                    berdasarkan informasi yang sudah diverifikasi.
+                  </p>
+                  <p>
+                    Tambahkan hasil diskusi, kutipan narasumber yang
+                    telah disetujui, serta tindak lanjut kegiatan.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- BERITA 2 -->
+          <article class="news-card">
+            <div class="news-image">
+              <span class="news-image-fallback" aria-hidden="true">
+                KADERISASI
+              </span>
+              <img
+                src="images/berita-2.jpg"
+                alt="Dokumentasi kegiatan kaderisasi"
+                loading="lazy"
+                width="800"
+                height="500"
+              >
+              <span class="image-category">Kaderisasi</span>
+            </div>
+
+            <div class="news-body">
+              <time datetime="2026-11-17">17 November 2026 · Contoh</time>
+
+              <h3>Membangun Kebersamaan Melalui Ruang Belajar Kader</h3>
+
+              <p class="news-excerpt">
+                Proses belajar bersama untuk mengenal organisasi
+                dan memperkuat semangat keterlibatan kader.
+              </p>
+
+              <details class="article-details">
+                <summary>
+                  Baca Selengkapnya
+                  <span aria-hidden="true">+</span>
+                </summary>
+
+                <div class="article-content">
+                  <p>
+                    Ini adalah contoh isi berita kaderisasi.
+                    Ganti paragraf ini dengan laporan kegiatan
+                    yang benar-benar dilaksanakan.
+                  </p>
+                  <p>
+                    Uraikan tujuan, rangkaian kegiatan, dan
+                    rencana pendampingan peserta setelah kegiatan.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <!-- BERITA 3 -->
+          <article class="news-card">
+            <div class="news-image">
+              <span class="news-image-fallback" aria-hidden="true">
+                KOLABORASI
+              </span>
+              <img
+                src="images/berita-3.jpg"
+                alt="Dokumentasi pertemuan pengurus"
+                loading="lazy"
+                width="800"
+                height="500"
+              >
+              <span class="image-category">Organisasi</span>
+            </div>
+
+            <div class="news-body">
+              <time datetime="2026-11-14">14 November 2026 · Contoh</time>
+
+              <h3>Menyatukan Langkah untuk Program Kerja yang Bermakna</h3>
+
+              <p class="news-excerpt">
+                Pertemuan pengurus sebagai ruang menyelaraskan
+                gagasan dan menyusun prioritas kerja bersama.
+              </p>
+
+              <details class="article-details">
+                <summary>
+                  Baca Selengkapnya
+                  <span aria-hidden="true">+</span>
+                </summary>
+
+                <div class="article-content">
+                  <p>
+                    Ini adalah contoh berita pertemuan pengurus.
+                    Ganti dengan informasi rapat yang boleh
+                    dipublikasikan kepada pengunjung.
+                  </p>
+                  <p>
+                    Cantumkan program prioritas, pembagian peran,
+                    dan hasil keputusan yang telah disepakati.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         PAPAN PENGUMUMAN
+         Urutkan pengumuman terbaru di posisi teratas.
+         Tanggal berikut adalah contoh, bukan agenda resmi.
+         ========================================== -->
+    <section
+      class="section section-announcements"
+      id="pengumuman"
+      aria-labelledby="pengumuman-title"
+    >
+      <div class="container announcement-layout">
+        <div class="announcement-intro">
+          <span class="eyebrow">JANGAN LEWATKAN INFORMASINYA</span>
+
+          <h2 id="pengumuman-title">Papan Pengumuman</h2>
+
+          <p>
+            Temukan informasi agenda, pemberitahuan pengurus,
+            dan kebutuhan kader dalam satu tempat.
+          </p>
+
+          <div class="info-note">
+            <span class="info-symbol" aria-hidden="true">i</span>
+            <p>
+              Periksa tanggal dan isi pengumuman sebelum
+              mengikuti agenda. Hubungi pengurus untuk konfirmasi.
+            </p>
+          </div>
+        </div>
+
+        <div class="announcement-board">
+          <div class="board-heading">
+            <h3>Informasi Terbaru</h3>
+            <span class="board-status">Contoh konten</span>
+          </div>
+
+          <ul class="announcement-list">
+            <!-- PENGUMUMAN 1 -->
+            <li>
+              <article class="announcement-item">
+                <time class="date-box" datetime="2026-11-22">
+                  <span>22</span>
+                  <span>NOV</span>
+                  <span>2026</span>
+                </time>
+
+                <div class="announcement-copy">
+                  <span class="badge badge-important">Penting</span>
+                  <h4>Informasi Koordinasi Pengurus</h4>
+                  <p>
+                    Contoh: pengurus diminta memeriksa informasi
+                    koordinasi melalui kanal komunikasi internal.
+                  </p>
+
+                  <details class="announcement-details">
+                    <summary>Lihat rincian</summary>
+                    <p>
+                      Ganti dengan jadwal, tempat, keperluan,
+                      dan narahubung kegiatan yang sebenarnya.
+                    </p>
+                  </details>
+                </div>
+              </article>
+            </li>
+
+            <!-- PENGUMUMAN 2 -->
+            <li>
+              <article class="announcement-item">
+                <time class="date-box" datetime="2026-11-19">
+                  <span>19</span>
+                  <span>NOV</span>
+                  <span>2026</span>
+                </time>
+
+                <div class="announcement-copy">
+                  <span class="badge badge-info">Info Kader</span>
+                  <h4>Pendataan dan Pembaruan Informasi Kader</h4>
+                  <p>
+                    Contoh: informasi pembaruan data kader
+                    akan disampaikan oleh pengurus terkait.
+                  </p>
+
+                  <details class="announcement-details">
+                    <summary>Lihat rincian</summary>
+                    <p>
+                      Tambahkan petunjuk pendataan dan tautan
+                      formulir resmi jika sudah tersedia.
+                      Jangan memublikasikan data pribadi kader.
+                    </p>
+                  </details>
+                </div>
+              </article>
+            </li>
+
+            <!-- PENGUMUMAN 3 -->
+            <li>
+              <article class="announcement-item">
+                <time class="date-box" datetime="2026-11-16">
+                  <span>16</span>
+                  <span>NOV</span>
+                  <span>2026</span>
+                </time>
+
+                <div class="announcement-copy">
+                  <span class="badge badge-agenda">Agenda</span>
+                  <h4>Ruang Diskusi dan Belajar Bersama</h4>
+                  <p>
+                    Contoh: informasi topik dan teknis
+                    diskusi akan diperbarui pada halaman ini.
+                  </p>
+
+                  <details class="announcement-details">
+                    <summary>Lihat rincian</summary>
+                    <p>
+                      Tambahkan tema diskusi, pemantik, jadwal,
+                      lokasi, dan ketentuan peserta di sini.
+                    </p>
+                  </details>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       FOOTER
+       Kontak belum diisi agar tidak mengarah ke akun lain.
+       Ganti teks kontak dan aktifkan tautan resmi.
+       ========================================== -->
+  <footer class="site-footer" id="kontak">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="brand footer-brand" href="#beranda">
+          <span class="brand-logo" aria-hidden="true">DT</span>
+          <span class="brand-text">
+            <strong>PMII</strong>
+            <span>Komisariat Djoko Tingkir</span>
+          </span>
+        </a>
+
+        <p>
+          Ruang informasi komisariat untuk mempertemukan gagasan,
+          menguatkan kebersamaan, dan mendokumentasikan langkah organisasi.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Jelajahi</h2>
+
+        <nav aria-label="Navigasi footer">
+          <a href="#beranda">Beranda</a>
+          <a href="#struktur">Struktur Pengurus</a>
+          <a href="#berita">Berita & Kegiatan</a>
+          <a href="#pengumuman">Pengumuman</a>
+        </nav>
+      </div>
+
+      <div class="footer-column">
+        <h2>Kontak Organisasi</h2>
+
+        <!-- GANTI KONTAK DENGAN INFORMASI RESMI -->
+        <address>
+          <p>Alamat sekretariat: akan diperbarui.</p>
+          <p>Email: belum dicantumkan.</p>
+          <p>WhatsApp: belum dicantumkan.</p>
+        </address>
+
+        <!--
+          Jika email sudah tersedia, gunakan misalnya:
+          <a href="mailto:ALAMAT_EMAIL_RESMI">Email Organisasi</a>
+        -->
+      </div>
+
+      <div class="footer-column">
+        <h2>Media Sosial</h2>
+
+        <p class="social-note">
+          Tautan akan diaktifkan setelah akun resmi dicantumkan.
+        </p>
+
+        <!--
+          GANTI elemen span dengan a berisi URL akun resmi.
+          Contoh struktur:
+          <a
+            class="social-link"
+            href="URL_AKUN_RESMI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram ↗
+          </a>
+        -->
+        <div class="social-list">
+          <span class="social-link social-pending">Instagram · segera</span>
+          <span class="social-link social-pending">YouTube · segera</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>
+        &copy; <span id="copyright-year">2026</span>
+        PMII Komisariat Djoko Tingkir. Hak cipta dilindungi.
+      </p>
+
+      <a href="#beranda">
+        Kembali ke atas
+        <span aria-hidden="true">↑</span>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       JAVASCRIPT RINGAN
+       Tetap di HTML agar hanya ada dua file kode.
+       ========================================== -->
+  <script>
+    (() => {
+      "use strict";
+
+      const toggle = document.querySelector(".menu-toggle");
+      const navigation = document.getElementById("menu-utama");
+      const mobileViewport = window.matchMedia("(max-width: 860px)");
+
+      // Mengatur status menu dan atribut aksesibilitas.
+      function setMenu(isOpen) {
+        toggle.setAttribute("aria-expanded", String(isOpen));
+        toggle.setAttribute(
+          "aria-label",
+          isOpen ? "Tutup menu navigasi" : "Buka menu navigasi"
+        );
+
+        navigation.classList.toggle("is-open", isOpen);
+      }
+
+      // Aktifkan perilaku menu mobile hanya jika JavaScript tersedia.
+      document.documentElement.classList.add("js-enabled");
+
+      toggle.addEventListener("click", () => {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+        setMenu(!isOpen);
+      });
+
+      // Tutup menu setelah pengguna memilih tujuan.
+      navigation.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => setMenu(false));
+      });
+
+      // Escape menutup menu dan mengembalikan fokus ke tombol.
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.key === "Escape" &&
+          toggle.getAttribute("aria-expanded") === "true"
+        ) {
+          setMenu(false);
+          toggle.focus();
+        }
+      });
+
+      // Tutup menu ketika pengguna mengeklik di luar navbar.
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest(".navbar")) {
+          setMenu(false);
+        }
+      });
+
+      // Saat berubah ke desktop, bersihkan status menu mobile.
+      mobileViewport.addEventListener("change", () => setMenu(false));
+
+      // Tutup menu jika fokus keyboard telah meninggalkan navbar.
+      document.querySelector(".navbar").addEventListener("focusout", () => {
+        window.setTimeout(() => {
+          if (!document.activeElement.closest(".navbar")) {
+            setMenu(false);
+          }
+        }, 0);
+      });
+
+      // Foto yang belum tersedia diganti latar placeholder.
+      document.querySelectorAll(".person-photo img, .news-image img")
+        .forEach((image) => {
+          const showFallback = () => {
+            image.hidden = true;
+          };
+
+          image.addEventListener("error", showFallback);
+
+          if (image.complete && image.naturalWidth === 0) {
+            showFallback();
+          }
+        });
+
+      // Tahun hak cipta mengikuti tahun pada perangkat.
+      document.getElementById("copyright-year").textContent =
+        String(new Date().getFullYear());
+    })();
+  </script>
+</body>
+</html>
